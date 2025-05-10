@@ -3,94 +3,152 @@
 <html>
 
     <head>
+        <Title>Environmental Pollution</Title>
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                color: #333;
+            }
 
-        <Title>Environmetal pollutioin \</Title>
+            h1 {
+                background-color: #4CAF50;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                margin: 0;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 1.5em;
+                color: #555;
+                padding: 15px;
+            }
+
+            mark {
+                background-color: yellow;
+                font-weight: bold;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+                text-align: center;
+                background-color: #333;
+            }
+
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.1em;
+            }
+
+            nav ul li a:hover {
+                color: #4CAF50;
+            }
+
+            p {
+                padding: 15px;
+                line-height: 1.6;
+                margin: 20px;
+                background-color: white;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            img {
+                display: block;
+                margin: 20px auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                max-width: 100%;
+            }
+
+            button {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 1em;
+                border-radius: 5px;
+                cursor: pointer;
+                display: block;
+                margin: 20px auto;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+            #msg {
+                text-align: center;
+                font-size: 1.2em;
+                color: #4CAF50;
+                font-weight: bold;
+            }
+
+        </style>
 
     </head>
 
     <body>
 
         <h1>
-
-            Environmetal pollutioin
-
+            Environmental Pollution
         </h1>
 
-
         <h2>
-
-            <mark>Pollution is harmful to our environment and effects our health</mark>
-
+            <mark>Pollution is harmful to our environment and affects our health</mark>
         </h2>
 
         <nav>
-
             <ul>
-
                 <li>
-                <a href="types.html">Types of Enveronmental pollution</a>
+                    <a href="types.html">Types of Environmental Pollution</a>
                 </li>
-
                 <li>
                     <a href="index.html">Environmental Pollution</a>
                 </li>
-
                 <li>
-                    <a href="effects.html">Effects of Environmetal pollution</a>
-
+                    <a href="effects.html">Effects of Environmental Pollution</a>
                 </li>
-
                 <li>
-                    <a href="solution.html">Solution to Environmetal pollution</a>
-
+                    <a href="solution.html">Solution to Environmental Pollution</a>
                 </li>
-
             </ul>
-
         </nav>
 
         <p>
-
-            Environmetal pollutioin refers to the intorduction of harmful substances to our environment, that can cause effects on nature, animals, and human beings. It includes air, water, soil and noise polution. Pollution effects ecosystem, bio-diversity, health, and can cause climate change. It is mainly caused by human activities such as industrial waste, transportation, urbanization e.t.c, i can also cause problems like overcroud, traffic, and can affect our earth if not controlled properly in the present.
-
+            Environmental pollution refers to the introduction of harmful substances to our environment, which can affect nature, animals, and humans. It includes air, water, soil, and noise pollution. Pollution affects ecosystems, biodiversity, health, and can cause climate change. It is mainly caused by human activities such as industrial waste, transportation, urbanization, etc. It can also lead to problems like overcrowding, traffic, and impact our Earth if not controlled properly in the present.
         </p>
 
-        <img src="istockphoto-537871941-612x612.jpg" alt="Enveronmental pollution example 1">
-        <img src="photo-1572213426852-0e4ed8f41ff6.jpg" width="600px" height="400px" alt="Environmetal pollution example 2">
-
+        <img src="istockphoto-537871941-612x612.jpg" alt="Environmental pollution example 1">
+        <img src="photo-1572213426852-0e4ed8f41ff6.jpg" width="600px" height="400px" alt="Environmental pollution example 2">
 
         <p>
-
-            Environmental pollution means making the natural world dirty or harmful. It happens when things like smoke, garbage,
-            chemicals, or loud sounds get into the air, water, or land and make them unsafe. Most pollution is caused by
-            people—factories, cars, burning trash, cutting down trees, and using too much plastic are common reasons. There are
-            different kinds of pollution: air pollution makes the air dirty, water pollution harms lakes and rivers, and land
-            pollution comes from throwing waste on the ground. Pollution is bad for animals, plants, and people. It can cause
-            sickness, kill animals, and make the Earth hotter. To stop pollution, we can throw garbage in bins, use less plastic,
-            ride bicycles, save water, and plant trees. Everyone must help protect the Earth by keeping it clean. A clean
-            environment means a better, healthier life for us now and for future generations.
-
+            Environmental pollution means making the natural world dirty or harmful. It happens when things like smoke, garbage, chemicals, or loud sounds get into the air, water, or land and make them unsafe. Most pollution is caused by people—factories, cars, burning trash, cutting down trees, and using too much plastic are common reasons. There are different kinds of pollution: air pollution makes the air dirty, water pollution harms lakes and rivers, and land pollution comes from throwing waste on the ground. Pollution is bad for animals, plants, and people. It can cause sickness, kill animals, and make the Earth hotter. To stop pollution, we can throw garbage in bins, use less plastic, ride bicycles, save water, and plant trees. Everyone must help protect the Earth by keeping it clean. A clean environment means a better, healthier life for us now and for future generations.
         </p>
 
-        <button onclick="popupmessage()">
-
-            Click me!
-
-        </button>
+        <button onclick="popupmessage()">Click me!</button>
 
         <p id="msg"></p>
 
         <script>
-
             function popupmessage(){
-
-                let message = "Stop pollution, Save the earth"
-                document.getElementById("msg").innerHTML = message
-
+                let message = "Stop pollution, Save the earth";
+                document.getElementById("msg").innerHTML = message;
             }
-
         </script>
 
-    </body>    
+    </body>
 
 </html>
