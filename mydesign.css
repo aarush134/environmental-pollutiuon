@@ -1,0 +1,26 @@
+.section-dark{
+
+    background-color: darkcyan;
+    color: blanchedalmond;
+
+}
+
+.section-bright{
+
+    background-color: lightblue;
+    color: lightslategray;
+
+}
+
+.pText{
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: forestgreen;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
